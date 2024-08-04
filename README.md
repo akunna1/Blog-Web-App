@@ -4,7 +4,7 @@ Blog Web App for my stories
 **Terminal commands:**
 - npm add firebase
 
-  **Firebase Configuration
+  **Firebase Configuration**
   - Project settings
   - click on webapp icon
   - Add firebase sdk (copy)
