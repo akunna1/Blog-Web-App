@@ -23,3 +23,14 @@ service cloud.firestore {
     }
   }
 }
+
+**Firebase functions**
+- addDoc: Adds a new document to a Firestore collection
+- getFirestore: Initializes and returns a Firestore instance
+- collection: Refers to a specific Firestore collection where documents are stored
+- getDocs: Retrieves all documents from a specified Firestore collection
+- deleteDoc: Deletes a specific document from a Firestore collection
+- Timestamp: Represents a point in time, used for recording dates and times in Firestore
+- query: Creates a query object to filter or sort data from a Firestore collection
+- orderBy: Specifies a field to order the results of a query in Firestore
+- onSnapshot: Sets up a real-time listener for changes in a Firestore collection or document
