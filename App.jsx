@@ -10,6 +10,7 @@ import { auth } from './firebase/config';
 import English from './pages/English';
 import French from './pages/French';
 import Igbo from './pages/Igbo';
+import Pidgin from './pages/Pidgin';
 import About from './pages/About';
 import Chat from './pages/Chat';
 
@@ -43,6 +44,7 @@ function App() {
         <Route path="/english" element={<English />} />
         <Route path="/french" element={<French />} />
         <Route path="/igbo" element={<Igbo />} />
+        <Route path="/pidgin" element={<Pidgin />} />
         <Route path="/chat" element={<Chat />} />
         <Route path="/about" element={<About />} />
       </Routes>
