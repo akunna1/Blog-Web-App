@@ -1,5 +1,4 @@
-# Blog-Web-App
-Blog Web App for my stories
+#### Complete code not provided...
 
 **Terminal commands:**
 - npm add firebase
