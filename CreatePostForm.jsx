@@ -64,6 +64,9 @@ const CreatePost = ({ isAuth }) => {
     setLanguage(post.language);
     setTitle(post.title);
     setStory(post.story);
+
+    // Scroll to top when editing
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   // Handle deleting a post
