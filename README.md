@@ -1,19 +1,37 @@
-#### Complete code not provided (most .jsx components excluded)...
+# ✍️ Akunna Writes: Tales in Four Tongues (Partial Code)
 
-**Terminal commands:**
-- npm add firebase
+**Note:** This repository includes only selected `.jsx` components and the root files. The complete codebase is not provided here.
 
-  **Firebase Configuration**
-  - Project settings
-  - click on webapp icon
-  - Add firebase sdk (copy)
-  - create firebase folder and config.jsx file in it
-  - Add firebase sdk to config.jsx
-  - add firebase authentication using gmail account
-  - go to firestore database
-  - add more things to config.jsx
- 
-  rules_version = '2';
+---
+
+## 📖 About Akunna Writes
+
+Akunna Writes is a multilingual blogging platform designed to celebrate storytelling and cultural expression through four languages: English, French, Igbo, and Pidgin. It serves as a creative outlet where users can share short stories, poems, and translations that highlight the beauty and diversity of language.
+
+The app aims to foster a welcoming community for readers and writers alike—encouraging cultural exchange, promoting language literacy, and providing inspiration during challenging times. It’s both a personal journal and a space for others to connect through shared narratives.
+
+---
+
+## ⚙️ Setup & Firebase Integration
+
+### Installing Firebase
+
+```bash
+npm add firebase
+```
+
+### Firebase Configuration Steps
+
+* Create a Firebase project and navigate to project settings
+* Add a new web app and copy the Firebase SDK config snippet
+* In your project, create a `firebase` folder with a `config.jsx` file
+* Paste the Firebase SDK config inside `config.jsx`
+* Enable Firebase Authentication with Gmail sign-in
+* Set up Firestore Database in Firebase Console
+* Configure Firestore security rules (for development):
+
+```plaintext
+rules_version = '2';
 
 service cloud.firestore {
   match /databases/{database}/documents {
@@ -22,14 +40,29 @@ service cloud.firestore {
     }
   }
 }
+```
 
-**Firebase functions**
-- addDoc: Adds a new document to a Firestore collection
-- getFirestore: Initializes and returns a Firestore instance
-- collection: Refers to a specific Firestore collection where documents are stored
-- getDocs: Retrieves all documents from a specified Firestore collection
-- deleteDoc: Deletes a specific document from a Firestore collection
-- Timestamp: Represents a point in time, used for recording dates and times in Firestore
-- query: Creates a query object to filter or sort data from a Firestore collection
-- orderBy: Specifies a field to order the results of a query in Firestore
-- onSnapshot: Sets up a real-time listener for changes in a Firestore collection or document
+---
+
+## 🔧 Key Firebase Functions Used
+
+* **addDoc:** Adds a new document to a Firestore collection
+* **getFirestore:** Initializes and returns a Firestore instance
+* **collection:** References specific Firestore collections
+* **getDocs:** Retrieves all documents from a Firestore collection
+* **deleteDoc:** Deletes specific documents from Firestore
+* **Timestamp:** Stores date and time information for documents
+* **query:** Builds queries to filter or sort Firestore data
+* **orderBy:** Orders query results by specified fields
+* **onSnapshot:** Real-time listener for Firestore data changes
+
+---
+
+## 📂 Code Provided
+
+* Selected `.jsx` components showcasing main app features
+* Root `layout.jsx` and `page.jsx` files structuring the application
+
+---
+
+If you would like a full code version or need assistance setting up, feel free to get in touch!
