@@ -71,4 +71,4 @@ Check out the live site here: [Akunna Writes](https://akunnawrites.com/)
 
 ---
 
-If you would like a full code version or need assistance setting up, feel free to get in touch!
+If you would like a full code version or need assistance setting up, feel free to get in touch! Might upgrade the app in the future to use next.js instead...
